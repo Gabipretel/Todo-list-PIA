@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>TODO LIST PIA </title>
+</head>
+<body>
+    <main class="container">
+        <header class="encabezado">
+            <div id="fecha"></div>
+            <h1>Lista de Tareas</h1>
+            <span>Vamos a cumplir tus metas</span>
+        </header>
+
+        <div class="agregar-tarea">
+            <input type="text"  id="input" placeholder="Agregá una tarea">
+            <i id="boton-enter" class="fas fa-plus-circle"></i>
+        </div>
+        <section class="seccion-tarea">
+            <h3>Estas son tus tareas Pendientes</h3>
+            <ul id="lista">
+                <!-- <li>
+                   <i class="far fa-circle co" data="realizado" id="0"></i>
+                   <p class="text "></p>
+                   <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                </li> -->
+            </ul> 
+        </section>
+    </main>    
+<script src="main.js"></script>
+</body>
+</html>
